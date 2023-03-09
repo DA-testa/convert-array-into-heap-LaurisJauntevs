@@ -35,7 +35,7 @@ def main():
           print(i, j)
     elif "F" in text:
        nosaukums = input()
-       fails = open("./test/0"+nosaukums)
+       fails = open("./test/"+nosaukums)
        n = fails.readline()
        n = int(n)
        data = list(map(int, fails.readline().split()))
